@@ -480,7 +480,8 @@ padding: 60px 0;
 .comment-form button{
     margin: 10px 0;f
 }
-@media(max-width: 700px;){
+
+@media(max-width: 700px){
     .sub-header2 h1{
         font-size: 24px;
     }
