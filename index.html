@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto</title>
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="./src/Pages/HomePage/css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;900&family=Poppins:wght@100;200;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+<!--NavBar-->
 
   <body>
     <section class="header">
       <nav>
-        <a href="index.html"><img class="logo" src="../img/logo_angola2.png"/></a>
+        <a href="./index.html"><img class="logo" src="./src/Pages/HomePage/img/logo_angola2.png"/></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">LOCAIS TURÍSTICOS</a></li>
-            <li><a href="">ALOJAMENTOS</a></li>
-            <li><a href="">CONTACTOS</a></li>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./src/Pages/HomePage/Html/locais.html">LOCAIS TURÍSTICOS</a></li>
+            <li><a href="./src/Pages/HomePage/Html/alojamento.html">ALOJAMENTOS E RESTAURANTES</a></li>
+            <li><a href="./src/Pages/HomePage/Html/blog.html">BLOG</a></li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -33,6 +34,7 @@
     <div class="text-box">
         <h1>Visite o Lubango</h1>
         <p>Venha conhecer a Cidade do Conhecimento e a sua rica cultura.</p>
+        <a href="https://www.google.com/maps/place/Lubango,+Angola/@-14.9125935,13.5239862,12.48z/data=!4m6!3m5!1s0x1ba34b79115f7f23:0xcaa20e87e439fb10!8m2!3d-14.9186136!4d13.5321234!16zL20vMDJuODVq" class="hero-btn">Localização</a>
     </div>
     
     </section>
@@ -41,8 +43,8 @@
     
     <section class="cidade">
         <h1>Cidade do Lubango</h1>
-        <p>Lubango é uma cidade e município de Angola, capital da província da Huíla.
-        
+        <p>Lubango é uma cidade e município de Angola, capital da província da Huíla.</p>
+        <a href="" target="_blank" class="hero-btn cid-btn">Localização</a>
         <div class="row">
         <div class="cidade-col">
             <h3>História</h3>
@@ -63,25 +65,25 @@
     <!---Locais turisticos-->
     <section class="locais">
         <h1>Locais turísticos</h1>
-        <p>Estes são os locais turísticos mais visitados da cidade.<br>Para ficar a conhecer outros locais turísticos da cidade do Lubango vá até <b><u>LOCAIS TURÍSTICOS</u></b>.</p>
+        <p>Estes são os locais turísticos mais visitados da cidade.<br>Para ficar a conhecer estes e outros locais turísticos da cidade do Lubango vá até <a href="http://127.0.0.1:5500/src/Pages/HomePage/Html/locais.html"><u>LOCAIS TURÍSTICOS</u></a>.</p>
 
         <div class="row">
             <div class="locais-col">
-                <img src="../img/Serra_leba2.jpg">
+                <img src="./src/Pages/HomePage/img/Serra_leba2.jpg">
                 <div class="layer">
-                    <h3>Serra da Leba</h3>
+                    <a href="http://127.0.0.1:5500/src/Pages/HomePage/Html/locais.html"><h3>Serra da Leba</h3></a>
                 </div>
             </div>
             <div class="locais-col">
-                <img src="../img/tundavala3.jpg">
+                <img src="./src/Pages/HomePage/img/tundavala3.jpg">
                 <div class="layer">
-                    <h3>Tundavala</h3>
+                    <a href="http://127.0.0.1:5500/src/Pages/HomePage/Html/locais.html"><h3>Tundavala</h3></a>
                 </div>
             </div>
             <div class="locais-col">
-                <img src="../img/Cristo_Rei2.jpg">
+                <img src="./src/Pages/HomePage/img/Cristo_Rei2.jpg">
                 <div class="layer">
-                    <h3>Cristo Rei</h3>
+                    <a href="http://127.0.0.1:5500/src/Pages/HomePage/Html/locais.html"><h3>Cristo Rei</h3></a>
                 </div>
             </div>
         </div>
@@ -90,26 +92,26 @@
 
     <!---Alojamento-->
     <section class="aloj">
-        <h1>Alojamento</h1>
-        <p>Estes são considerados os três melhores alojamentos da cidade.<br>Para ficar a conhecer outros alojamentos ao seu dispor é só consultar <b><u>ALOJAMENTOS</u></b></p>
+        <h1>Alojamentos e Restaurantes</h1>
+        <p>Estes são considerados os três melhores alojamentos e restaurantes da cidade.<br>Para ficar a conhecer melhor estes e outros alojamentos ao seu dispor é só consultar <a href="http://127.0.0.1:5500/src/Pages/HomePage/Html/alojamento.html"><u>ALOJAMENTOS E RESTAURANTES.</u></a></p>
     
         <div class="row">
             <div class="aloj-col">
-                <img src="../img/casper-lodge.jpg">
-                <div class="layer">
-                    <h3>Casper<br>Lodge</h3>
+                    <img src="./src/Pages/HomePage/img/casper-lodge.jpg">
+                <div class="layer1">
+                    <a href="http://127.0.0.1:5500/src/Pages/HomePage/Html/alojamento.html"><h3>Casper<br>Lodge</h3></a>
                 </div>
             </div>
             <div class="aloj-col">
-                <img src="../img/pululukwa2.jpg">
-                <div class="layer">
-                    <h3>Lodge<br>Pululukwa</h3>
-                </div>
+                <img src="./src/Pages/HomePage/img/pululukwa2.jpg">
+                <div class="layer1">
+                    <a href="http://127.0.0.1:5500/src/Pages/HomePage/Html/alojamento.html"><h3>Pululukwa<br>Lodge</h3></a>
+                </div>.
             </div>
             <div class="aloj-col">
-                <img src="../img/hotel-serra.jpg">
-                <div class="layer">
-                    <h3>Hotel<br>Serra da Chela</h3>
+                <img src="./src/Pages/HomePage/img/hotel-serra.jpg">
+                <div class="layer1">
+                    <a href="http://127.0.0.1:5500/src/Pages/HomePage/Html/alojamento.html"><h3>Hotel<br>Serra da Chela</h3></a>
                 </div>
             </div>
         </div>
@@ -124,17 +126,17 @@
 
     <div class="row">
         <div class="eventos-col">
-            <img src="../img/corridas-1.jpg">
+            <img src="./src/Pages/HomePage/img/corridas-1.jpg">
             <h3>Automobilismo</h3>
             <p>Prova Nacional de Automobilismo e Motociclismo</p>
         </div>
         <div class="eventos-col">
-            <img src="../img/nossa-senhora-do-monte-1.jpg">
+            <img src="./src/Pages/HomePage/img/nossa-senhora-do-monte-1.jpg">
             <h3>Peregrinação à Capela da Nossa Senhora do Monte</h3>
             <p>Peregrinação Religiosa que começa no centro da cidade e termina no topo da montanha onde se encontra a Capela da Nossa Senhora do Monte.</p>
         </div>
         <div class="eventos-col">
-            <img src="../img/feira-gado.jpg">
+            <img src="./src/Pages/HomePage/img/feira-gado.jpg">
             <h3>Feira do Gado</h3>
             <p>Feira do Gado, onde os vários fazendeiros expõem as suas posses e as leiloam.</p>
         </div>

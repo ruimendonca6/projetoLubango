@@ -157,6 +157,11 @@ h3{
     text-align: center;
     padding-top: 50px;
 }
+.locais a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px;
+}
 .locais-col{
     flex-basis: 32%;
     border-radius: 10px;
@@ -205,6 +210,11 @@ h3{
     text-align: center;
     padding-top: 50px;
 }
+.aloj a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px;
+}
 .aloj-col{
     flex-basis: 32%;
     border-radius: 10px;
@@ -216,19 +226,19 @@ h3{
     width: 100%;
     display: block;
 }
-.layer{
+.layer1{
     background: transparent;
-    height: 100%;
+    height: 92.5%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     transition: 0.5s;
 }
-.layer:hover{
+.layer1:hover{
     background: rgba(241, 3, 3, 0.7);
 }
-.layer h3{
+.layer1 h3{
     width: 100%;
     font-weight: 500;
     color: #fff;
@@ -240,7 +250,7 @@ h3{
     opacity: 0;
     transition: 0.5s;
 }
-.layer:hover h3{
+.layer1:hover h3{
     bottom: 49%;
     opacity: 1;
 }
@@ -330,3 +340,148 @@ h3{
     padding: 18px 0;
 }
 
+/*---pag locais turisticos--*/
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/serra_leba3.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.loc-tur{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.loc-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.loc-tur img{
+    width: 100%;
+}
+.loc-tur h1{
+    padding-top: 0;
+}
+.loc-tur p{
+    padding: 15px 0 25px;
+}
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color:#f44336;
+}
+.red-btn:hover{
+    color: #fff;
+}
+
+
+/*---pag aloj e rest--*/
+
+.sub-header1{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/pulu-cama.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub-header1 h1{
+    margin-top: 100px;
+}
+.aloj-res{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.res-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.aloj-res img{
+    width: 100%;
+}
+.aloj-res h1{
+    padding-top: 0;
+}
+.aloj-res p{
+    padding: 15px 0 25px;
+}
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color:#f44336;
+}
+.red-btn:hover{
+    color: #fff;
+}
+
+/*---BLOG---*/
+.sub-header2{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/cidade2.JPG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub-header2 h1{
+    margin-top: 100px;
+}
+.blog-content{
+width: 80%;
+margin: auto;
+padding: 60px 0;
+}
+.blog-center{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px; 
+}
+.blog-center h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.blog-center p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px;
+}
+.part-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.part-box h3{
+    text-align: left;
+}
+.part-form input, .part-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0;f
+}
+@media(max-width: 700px;){
+    .sub-header2 h1{
+        font-size: 24px;
+    }
+}
